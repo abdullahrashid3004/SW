@@ -1,5 +1,6 @@
-import os
-os.system("pip install scikit-learn")
+import sys, subprocess
+
+subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn"])
 
 import streamlit as st
 import numpy as np
