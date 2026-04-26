@@ -1,10 +1,6 @@
+requirements.txt
+
 streamlit
-numpy
 pandas
+numpy
 scikit-learn
-scipy
-joblib
-threadpoolctl
-pillow
-matplotlib
-seaborn
